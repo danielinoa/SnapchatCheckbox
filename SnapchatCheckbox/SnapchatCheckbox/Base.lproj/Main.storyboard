@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XRC-LO-2bb">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="xLQ-u6-fQq">
+            <objects>
+                <viewController id="XRC-LO-2bb" customClass="ViewController" customModule="SnapchatCheckbox" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Rgi-gM-vxS"/>
+                        <viewControllerLayoutGuide type="bottom" id="eDk-Rs-i6z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Z7Y-8D-c7h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fHS-ua-1R7" customClass="SnapchatCheckbox" customModule="SnapchatCheckbox" customModuleProvider="target">
+                                <rect key="frame" x="168" y="314" width="40" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Cu0-3h-Ixt"/>
+                                    <constraint firstAttribute="width" secondItem="fHS-ua-1R7" secondAttribute="height" multiplier="1:1" id="Zpx-70-ryH"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="checkboxTapped:" destination="XRC-LO-2bb" eventType="valueChanged" id="GpT-kt-agZ"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" placeholderIntrinsicWidth="40" placeholderIntrinsicHeight="40" translatesAutoresizingMaskIntoConstraints="NO" id="G67-fc-pka" customClass="SnapchatCheckbox" customModule="SnapchatCheckbox" customModuleProvider="target">
+                                <rect key="frame" x="168" y="384" width="40" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" placeholderIntrinsicWidth="40" placeholderIntrinsicHeight="40" translatesAutoresizingMaskIntoConstraints="NO" id="koU-xr-g8Q" customClass="SnapchatCheckbox" customModule="SnapchatCheckbox" customModuleProvider="target">
+                                <rect key="frame" x="167" y="454" width="40" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" placeholderIntrinsicWidth="40" placeholderIntrinsicHeight="40" translatesAutoresizingMaskIntoConstraints="NO" id="ghy-cT-deA" customClass="SnapchatCheckbox" customModule="SnapchatCheckbox" customModuleProvider="target">
+                                <rect key="frame" x="167" y="244" width="40" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" placeholderIntrinsicWidth="40" placeholderIntrinsicHeight="40" translatesAutoresizingMaskIntoConstraints="NO" id="j4T-CL-QDJ" customClass="SnapchatCheckbox" customModule="SnapchatCheckbox" customModuleProvider="target">
+                                <rect key="frame" x="167" y="174" width="40" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(isChecked)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b1c-N0-raY">
+                                <rect key="frame" x="228" y="323" width="92" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Snapchat-inspired checkbox" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lfD-2h-sux">
+                                <rect key="frame" x="49" y="64" width="278" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="b1c-N0-raY" firstAttribute="leading" secondItem="fHS-ua-1R7" secondAttribute="trailing" constant="20" id="BT0-YU-Q3i"/>
+                            <constraint firstItem="ghy-cT-deA" firstAttribute="top" secondItem="j4T-CL-QDJ" secondAttribute="bottom" constant="30" id="CbP-sn-qFC"/>
+                            <constraint firstItem="koU-xr-g8Q" firstAttribute="centerX" secondItem="Z7Y-8D-c7h" secondAttribute="centerX" id="Cdd-sh-plI"/>
+                            <constraint firstItem="lfD-2h-sux" firstAttribute="centerX" secondItem="Z7Y-8D-c7h" secondAttribute="centerX" id="E0u-tX-28c"/>
+                            <constraint firstItem="G67-fc-pka" firstAttribute="top" secondItem="fHS-ua-1R7" secondAttribute="bottom" constant="30" id="HM0-7Y-jTf"/>
+                            <constraint firstItem="fHS-ua-1R7" firstAttribute="top" secondItem="ghy-cT-deA" secondAttribute="bottom" constant="30" id="M4J-Wf-70Q"/>
+                            <constraint firstItem="G67-fc-pka" firstAttribute="centerX" secondItem="Z7Y-8D-c7h" secondAttribute="centerX" id="S0S-ts-4Fu"/>
+                            <constraint firstItem="lfD-2h-sux" firstAttribute="top" secondItem="Rgi-gM-vxS" secondAttribute="bottom" constant="44" id="URm-Sb-MZc"/>
+                            <constraint firstItem="fHS-ua-1R7" firstAttribute="centerX" secondItem="Z7Y-8D-c7h" secondAttribute="centerX" id="YKw-W0-j5t"/>
+                            <constraint firstItem="fHS-ua-1R7" firstAttribute="centerY" secondItem="Z7Y-8D-c7h" secondAttribute="centerY" id="aS5-nf-Y1M"/>
+                            <constraint firstItem="ghy-cT-deA" firstAttribute="centerX" secondItem="Z7Y-8D-c7h" secondAttribute="centerX" id="eIZ-J1-Sss"/>
+                            <constraint firstItem="koU-xr-g8Q" firstAttribute="top" secondItem="G67-fc-pka" secondAttribute="bottom" constant="30" id="enz-iy-2X4"/>
+                            <constraint firstItem="j4T-CL-QDJ" firstAttribute="centerX" secondItem="Z7Y-8D-c7h" secondAttribute="centerX" id="vsw-h4-woe"/>
+                            <constraint firstItem="b1c-N0-raY" firstAttribute="centerY" secondItem="fHS-ua-1R7" secondAttribute="centerY" id="xPi-Yg-gNG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="checkbox" destination="fHS-ua-1R7" id="ZCF-qF-fuN"/>
+                        <outlet property="isCheckedLabel" destination="b1c-N0-raY" id="sRI-p6-PsD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oKy-1o-5N4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+</document>
