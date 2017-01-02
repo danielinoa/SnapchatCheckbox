@@ -2,7 +2,11 @@
 
 In Snapchat, after receiving and opening a snap, there is the option to replay a snap by holding down on the specified snap, which results in a small box being filled in a circular manner.
 
+<img src="https://github.com/danielinoa/SnapchatCheckbox/blob/master/Assets/snapchat.gif">
+
 This checkbox is inspired by that icon/view.
+
+<img src="https://github.com/danielinoa/SnapchatCheckbox/blob/master/Assets/snapchat_checbox.gif" height="450">
 
 ## Compatibility
 
