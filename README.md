@@ -6,7 +6,7 @@ In Snapchat, after receiving and opening a snap, there is the option to replay a
 
 This checkbox is inspired by that icon/view.
 
-<img src="https://github.com/danielinoa/SnapchatCheckbox/blob/master/Assets/snapchat_checbox.gif" height="450">
+<img src="https://github.com/danielinoa/SnapchatCheckbox/blob/master/Assets/snapchat_checkbox.gif" height="450">
 
 ## Compatibility
 
