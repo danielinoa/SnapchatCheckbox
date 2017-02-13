@@ -4,7 +4,7 @@ In Snapchat, after receiving and opening a snap, there is the option to replay a
 
 <img src="https://github.com/danielinoa/SnapchatCheckbox/blob/master/Assets/snapchat.gif">
 
-This checkbox is inspired by that icon/view.
+This checkbox is inspired by that control/view.
 
 <img src="https://github.com/danielinoa/SnapchatCheckbox/blob/master/Assets/snapchat_checkbox.gif" height="450">
 
